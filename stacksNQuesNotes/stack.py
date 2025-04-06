@@ -5,7 +5,7 @@ class Stack():
         self.top = None
 
     def __str__(self):
-        string = "TOP Of StACK \n"
+        string = "____TOP OF STACK____ \n"
         traverser = self.top
         while traverser != None:
             string += str(traverser.data)+ "\n" 
